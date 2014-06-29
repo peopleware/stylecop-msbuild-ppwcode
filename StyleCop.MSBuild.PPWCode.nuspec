@@ -6,7 +6,7 @@
     <authors>Ruben Vandeginste, Danny Van den Wouwer</authors>
     <owners>PeopleWare n.v.</owners>
 
-    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <licenseUrl>http://opensource.org/licenses/Apache-2.0</licenseUrl>
     <projectUrl>https://github.com/peopleware/stylecop-msbuild-ppwcode</projectUrl>
     <iconUrl>http://www.ppwcode.org/img/logo.jpg</iconUrl>
 
