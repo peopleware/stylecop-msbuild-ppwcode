@@ -10,7 +10,7 @@ Install the package "StyleCop.MSBuild.PPWCode" using the Nuget package manager f
 
 ## Getting Started
 
-When the package is installed, every build will also trigger StyleCop and the build output will also contain StyleCop warnings.
+When the package is installed, every build will trigger StyleCop and the build output will contain StyleCop warnings.
 
 
 ## License and Copyright
