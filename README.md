@@ -4,7 +4,7 @@ This NuGet package provides [StyleCop] MSBuild integration with the PPWCode
 style conventions.
 
 
-## Getting Started
+## Getting started
 
 The package is available from the [NuGet] central package repository: the
 [NuGet Gallery].
@@ -87,8 +87,7 @@ Note that also in this case a `justification` must be added.
 
 ## Contributors
 
-* [Danny Van den Wouwer]
-* [Ruben Vandeginste]
+See the [GitHub Contributors list].
 
 
 ## PPWCode
@@ -165,6 +164,4 @@ StyleCop is licensed under the Microsoft Public License (see [StyleCop License])
 [StyleCop settings across projects]: https://stylecop.codeplex.com/wikipage?title=Sharing%20StyleCop%20Settings%20Across%20Projects&referringTitle=Documentation
 [StyleCop Rule Suppressions]: https://stylecop.codeplex.com/wikipage?title=Rule%20Suppressions&referringTitle=Documentation
 
-[Danny Van den Wouwer]: https://github.com/dvdwouwe
-[Ruben Vandeginste]: https://github.com/rvdginste
-
+[GitHub Contributors list]: https://github.com/peopleware/stylecop-msbuild-ppwcode/graphs/contributors
