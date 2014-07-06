@@ -53,7 +53,7 @@ Disabling specific rules can be done using a specific `SuppressMessage` attribut
 We illustrate this with a couple of examples. For more complete documentation,
 please consult the StyleCop documentation: [StyleCop Rule Suppressions].
 
-#### Example disable specific rule
+#### Example: disable specific rule
 
 The following example shows how to disable a specific rule.
 
@@ -69,7 +69,7 @@ The following example shows how to disable a specific rule.
 Note that it is required to add a `justification` when suppressing a rule.
 
 
-#### Example disable class of rules
+#### Example: disable class of rules
 
 The following example shows how to disable all naming rules.
 
@@ -82,13 +82,13 @@ The following example shows how to disable all naming rules.
         int GiveMeAnInt();
     }
 
-Note that also in this case it is required to add a `justification` when suppressing a rule.
+Note that also in this case a `justification` must be added.
     
 
 ## Contributors
 
-[Danny Van den Wouwer]
-[Ruben Vandeginste]
+* [Danny Van den Wouwer]
+* [Ruben Vandeginste]
 
 
 ## License and Copyright
@@ -110,7 +110,7 @@ limitations under the License.
 
 ### StyleCop
 
-Note that a release of StyleCop is embedded in this package.
+A release of StyleCop is embedded in this package.
 
 StyleCop is licensed under the Microsoft Public License (see [StyleCop License]).
 
