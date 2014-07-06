@@ -91,6 +91,36 @@ Note that also in this case a `justification` must be added.
 * [Ruben Vandeginste]
 
 
+## PPWCode
+
+This package is part of the PPWCode project, developed by [PeopleWare n.v.].
+
+More information can be found in the following locations:
+* [PPWCode project website]
+* [PPWCode Google Code website]
+
+Please note that not all information on those sites is up-to-date. We are
+currently in the process of moving the code away from the Google code
+subversion repositories to git repositories on [GitHub].
+
+
+### PPWCode .NET
+
+Specifically for the .NET libraries: new development will be done on the
+[PeopleWare GitHub repositories], and all new stable releases will also
+be published as packages on the [NuGet Gallery].
+
+We believe in Design By Contract and have good experience with
+[Microsoft Code Contracts] and the related tooling.  As such, our packages
+always include Contract Reference assemblies.  This allows you to also
+benefit as a user from the contracts that are already included in the
+library code.
+
+The packages also include both the pdb and xml files, for debugging symbols
+and documentation respectively.  In the future we might look into using
+symbol servers.
+
+
 ## License and Copyright
 
 Copyright 2014 by [PeopleWare n.v.].
@@ -115,10 +145,20 @@ A release of StyleCop is embedded in this package.
 StyleCop is licensed under the Microsoft Public License (see [StyleCop License]).
 
 
+
+[PPWCode project website]: http://www.ppwcode.org
+[PPWCode Google Code website]: http://ppwcode.googlecode.com
+
 [PeopleWare n.v.]: http://www.peopleware.be/
 
 [NuGet]: https://www.nuget.org/
 [NuGet Gallery]: https://www.nuget.org/policies/About
+
+[GitHub]: https://github.com
+[PeopleWare GitHub repositories]: https://github.com/peopleware
+
+[Microsoft Code Contracts]: http://research.microsoft.com/en-us/projects/contracts/
+
 [StyleCop]: http://stylecop.codeplex.com/
 [StyleCop License]: http://stylecop.codeplex.com/license
 [StyleCop documentation]: https://stylecop.codeplex.com/documentation
