@@ -1,29 +1,28 @@
 <?xml version="1.0"?>
 <package >
-  <metadata>
+  <metadata minClientVersion="2.8">
     <id>StyleCop.MSBuild.PPWCode</id>
     <version>4.7.49.0</version>
-    <authors>Ruben Vandeginste, Danny Van den Wouwer</authors>
+
+    <authors>PeopleWare n.v.</authors>
     <owners>PeopleWare n.v.</owners>
 
     <licenseUrl>http://opensource.org/licenses/Apache-2.0</licenseUrl>
     <projectUrl>https://github.com/peopleware/stylecop-msbuild-ppwcode</projectUrl>
     <iconUrl>http://www.ppwcode.org/img/logo.jpg</iconUrl>
 
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	
     <description>Nuget package for StyleCop MSBuild integration with the PPWCode code style settings.</description>
     
-	<releaseNotes>
-	4.7.49.0 Upgraded to StyleCop version 4.7.49. Follow version numbering of StyleCop.
-	</releaseNotes>
-	
+    <releaseNotes>
+        4.7.49.0 Upgraded to StyleCop version 4.7.49.0. Follow version numbering of StyleCop.
+    </releaseNotes>
+
     <copyright>Copyright 2014 by PeopleWare n.v.</copyright>
-	
+
     <tags>StyleCop PPWCode MSBuild</tags>
-	
-	<developmentDependency>true</developmentDependency>
-	
+
+    <developmentDependency>true</developmentDependency>
+
     <dependencies>
       <!-- no dependencies -->
     </dependencies>
@@ -31,11 +30,14 @@
 
   <!-- included files -->
   <files>
-    <file src="src\StyleCop\**\*" target="tools" exclude="src\StyleCop\Settings.StyleCop" />
+    <file src="src\StyleCop\**\*" 
+          target="tools"
+          exclude="src\StyleCop\Settings.StyleCop;src\StyleCop\CustomDictionary.xml" />
     <file src="src\Settings.StyleCop" target="tools\Settings.StyleCop" />
-	<file src="src\StyleCop.MSBuild.PPWCode.Targets" target="build" />
+    <file src="src\CustomDictionary.xml" target="tools\CustomDictionary.xml" />
+    <file src="src\StyleCop.MSBuild.PPWCode.Targets" target="build" />
 
     <file src="LICENSE_Non-StyleCop-files" target="LICENSE_Non-StyleCop-files" />
-	<file src="LICENSE_StyleCop" target="LICENSE_StyleCop" />
+    <file src="LICENSE_StyleCop" target="LICENSE_StyleCop" />
   </files>
 </package>
