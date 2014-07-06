@@ -30,8 +30,11 @@
 
   <!-- included files -->
   <files>
-    <file src="src\StyleCop\**\*" target="tools" exclude="src\StyleCop\Settings.StyleCop" />
+    <file src="src\StyleCop\**\*" 
+          target="tools"
+          exclude="src\StyleCop\Settings.StyleCop;src\StyleCop\CustomDictionary.xml" />
     <file src="src\Settings.StyleCop" target="tools\Settings.StyleCop" />
+    <file src="src\CustomDictionary.xml" target="tools\CustomDictionary.xml" />
     <file src="src\StyleCop.MSBuild.PPWCode.Targets" target="build" />
 
     <file src="LICENSE_Non-StyleCop-files" target="LICENSE_Non-StyleCop-files" />
