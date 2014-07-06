@@ -93,7 +93,7 @@ Note that also in this case a `justification` must be added.
 
 ## License and Copyright
 
-Copyright 2014 by PeopleWare n.v.
+Copyright 2014 by [PeopleWare n.v.].
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -114,6 +114,8 @@ A release of StyleCop is embedded in this package.
 
 StyleCop is licensed under the Microsoft Public License (see [StyleCop License]).
 
+
+[PeopleWare n.v.]: http://www.peopleware.be/
 
 [NuGet]: https://www.nuget.org/
 [NuGet Gallery]: https://www.nuget.org/policies/About
