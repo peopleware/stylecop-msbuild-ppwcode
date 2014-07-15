@@ -35,7 +35,7 @@ Even if this style is no match with the coding style you wish to follow in
 your own projects, this package can still be usefull. It is possible to
 override the included settings in the following ways.
 
-### Use own StyleCop settings files
+### Use your own StyleCop settings files
 
 It is possible to completely override the included settings by using another
 settings file on a project by project basis.  The preferred setttings file must
