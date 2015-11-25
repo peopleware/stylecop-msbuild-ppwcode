@@ -2,7 +2,7 @@
 <package >
   <metadata minClientVersion="2.8">
     <id>StyleCop.MSBuild.PPWCode</id>
-    <version>4.7.49.0</version>
+    <version>4.7.49.1</version>
 
     <authors>PeopleWare n.v.</authors>
     <owners>PeopleWare n.v.</owners>
@@ -14,7 +14,8 @@
     <description>Nuget package for StyleCop MSBuild integration with the PPWCode code style settings.</description>
     
     <releaseNotes>
-        4.7.49.0 Upgraded to StyleCop version 4.7.49.0. Follow version numbering of StyleCop.
+4.7.49.0 Upgraded to StyleCop version 4.7.49.0. Follow version numbering of StyleCop.
+4.7.49.1 Adjust some rules
     </releaseNotes>
 
     <copyright>Copyright 2014 by PeopleWare n.v.</copyright>
